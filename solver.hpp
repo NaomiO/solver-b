@@ -122,9 +122,9 @@ namespace solver
     }; 
 
     //Function to solve equations with real variables
-    double solve(const RealVariable &exercise);
+    double solve(RealVariable &exercise);
     
     //Function to solve equations with complex variables
-    std::complex<double> solve(const ComplexVariable &exercise);
+    std::complex<double> solve(ComplexVariable &exercise);
 
 }; 
